@@ -5,3 +5,5 @@ x=1 #Integer?
 if x==1: 
     print("x is gay.")
 
+#Exercise 
+print("Hello, World!")

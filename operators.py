@@ -18,3 +18,14 @@ all_numbers = even_numbers + odd_numbers
 print(all_numbers) #essentially concatenates the list 
 
 print([1, 2, 3]*3) #can scale lists, creating repeating pattern
+
+# Exercise
+#Create two lists called x_list and y_list
+x = object()
+y = object()
+
+x_list=([x]*10)
+y_list=([y]*10)
+print("x_list contains %d objects" % len(x_list))
+xy_list = x_list + y_list
+print("xy_list contains %d objects" % len(xy_list))

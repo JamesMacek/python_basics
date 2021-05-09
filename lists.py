@@ -5,5 +5,17 @@ mylist.append("Gay")
 print(mylist) #Multiple variable types permissible
 
 #print 2nd element of list
-print(mylist[2]) #Block brackets to refer to element in list
+print(mylist[1]) #Block brackets to refer to element in list (second item)
 
+
+#Exercise
+numbers = []
+strings = []
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+print(numbers.append)
+
+strings.append("Hello")
+strings.append("World")
+print(strings)

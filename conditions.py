@@ -30,3 +30,29 @@ print(x is y)
 #only temporarily...
 y=2
 print(x)
+
+
+#Exercise 
+# change this code to all admit "true"
+number = 16
+second_number = 10
+first_array = []
+second_array = [1,2,3]
+
+if number > 15:
+    print("1")
+
+if not first_array: #If `object' asks if object is nonempty. 
+    print("2")
+
+if len(second_array) == 3:
+    print("3")
+
+if len(first_array) + len(second_array) == 3:
+    print("4")
+
+if not first_array and first_array[0] == 1:
+    print("5")
+
+if second_number:
+    print("6")

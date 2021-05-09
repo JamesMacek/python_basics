@@ -15,3 +15,16 @@ def sum(a, b):
 
 print(sum(1, 2))
 
+#Exercise
+
+def list_benefits():
+    return "More organized code", "More readable code", "Easier code to reuse", \
+    "Allowing programmers to share and connect code together"
+   
+x = list_benefits()
+print(x)
+
+def build_sentence(info):
+    return info + " is a benefit of functions!"
+
+print(build_sentence("gay"))

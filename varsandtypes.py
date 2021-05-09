@@ -23,6 +23,12 @@ print(helloworld)
 a, b = 3, 4
 print(a, b) #separating a and b by a space 
 
+#Exercise
+mystring = "hello"
+myfloat = 10.0
+myint = 20
+
+print(mystring)
 
 
 
